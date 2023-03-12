@@ -33,12 +33,12 @@ function segmentText() {
 	document.getElementById("holder2").innerHTML = myArray1;
 }
 
-function segmentText2(){
+function segmentText2() {
     // on récupère le texte de l'élément d'id texte et on le met en majuscule, on le découpe et on le place dans l'élément avec id holder2
     // compléter le code ici
 	var text2 = document.querySelector("#texte").value.toUpperCase();
 	let separateurs = new RegExp ("[ ,']"); 
-	let myArray2 = text2.split ( separateurs );
+	let myArray2 = text2.split (separateurs);
 
 	document.getElementById("holder2").innerHTML = myArray2;
 }
